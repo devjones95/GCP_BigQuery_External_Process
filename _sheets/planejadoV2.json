@@ -1,0 +1,220 @@
+{
+    "schema": {
+      "fields": [
+    {
+        "name": "date",
+        "type": "DATE"
+    },
+    {
+        "name": "unique_id",
+        "type": "STRING"
+    },
+    {
+        "name": "version",
+        "type": "STRING"
+    },
+    {
+        "name": "agency",
+        "type": "STRING"
+    },
+    {
+        "name": "customer_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "campaign_name_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "fiscal_year_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "fase_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "funnel_stage_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "objective_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "platform_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "medium_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "medium_type_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "format_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "segmentation_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "region_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "creative_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "buy_type_planned",
+        "type": "STRING"
+    },
+    {
+        "name": "cpm_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpviews_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpviews_100p_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpe_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpc_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpvisits_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpl_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cpa_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "view_through_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "view_through_rate_100p_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "engagement_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "universe_planned",
+        "type": "INTEGER"
+    },
+    {
+        "name": "coverage_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "reach_planned",
+        "type": "INTEGER"
+    },
+    {
+        "name": "frequency_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "ctr_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "connect_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "lead_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "cost_per_install_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "aquisition_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "installation_rate_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "impressions_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "video_views_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "video_views_100p_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "engagement_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "investment_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "clicks_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "sessions_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "leads_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "installs_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "transaction_initiation_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "transactions_planned",
+        "type": "FLOAT"
+    },
+    {
+        "name": "revenue_planned",
+        "type": "FLOAT"
+    }
+ ]
+},
+"autodetect": false,
+"sourceFormat": "GOOGLE_SHEETS",
+"googleSheetsOptions": {
+  "range": "Planejado", 
+  "skipLeadingRows": 1 
+},
+"sourceUris": [
+  "https://docs.google.com/spreadsheets/d/1OKxQP8E36UC9AiaYhw-GAH9VWjXdSZfEnQ7NP8pgkXg/edit?gid=743231111#gid=743231111"
+]
+}
+

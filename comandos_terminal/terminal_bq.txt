@@ -1,0 +1,11 @@
+
+
+bq mk --force=true --external_table_definition=volvo_sheets_planejado.json volvo_sheets.volvo_sheets_planejado
+
+bq mk --force=true --external_table_definition=volvo_sheets_planejadoV2.json volvo_sheets.volvo_sheets_planejadoV2
+
+bq mk --force=true --external_table_definition=volvo_sheets_depara.json volvo_sheets.volvo_sheets_depara
+
+bq mk --force=true --external_table_definition=volvo_sheets_taxonomia.json volvo_sheets.volvo_sheets_taxonomia
+
+bq mk --force=true --external_table_definition=volvo_sheets_other_medium.json volvo_sheets.volvo_sheets_other_medium

@@ -1,0 +1,64 @@
+{
+    "schema": {
+      "fields": [
+    {
+      "name": "error_date",
+      "mode": "NULLABLE",
+      "type": "DATE",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "table_id",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "ad_level",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "id",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "old_taxonomy",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "new_taxonomy",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "set_date",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    }
+  ]
+  },
+  "autodetect": false,
+  "sourceFormat": "GOOGLE_SHEETS",
+  "googleSheetsOptions": {
+    "range": "de/para", 
+    "skipLeadingRows": 2 
+  },
+  "sourceUris": [
+    "https://docs.google.com/spreadsheets/d/1-PQKiLeGu3Uxk4EZku9XaG2ZyZ3qsFJaDau7vnkYnYM/edit?gid=840462019#gid=840462019"
+  ]
+  }

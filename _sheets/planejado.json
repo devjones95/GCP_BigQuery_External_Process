@@ -1,0 +1,106 @@
+{
+    "schema": {
+      "fields": [
+    {
+      "name": "date",
+      "mode": "NULLABLE",
+      "type": "DATE",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "platform_planned",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "funnel_stage_planned",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "campaign_name_planned",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "format_planned",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "investment_planned",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "impressions_planned",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "clicks_planned",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "leads_planned",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "video_views_planned",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "sessions_planned",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "month",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "year",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    }
+  ]
+  },
+  "autodetect": false,
+  "sourceFormat": "GOOGLE_SHEETS",
+  "googleSheetsOptions": {
+    "range": "Planejado", 
+    "skipLeadingRows": 1 
+  },
+  "sourceUris": [
+    "https://docs.google.com/spreadsheets/d/19_91uqSifTzyxvVKZcPpIHfDTiieKZAgNdJ5lqjOscg/edit?gid=238153443#gid=238153443"
+  ]
+  }
